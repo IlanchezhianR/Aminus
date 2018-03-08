@@ -56,5 +56,6 @@ def main():
 		file.write("\n")
 		i += 1
 	file.close()
+#	db.Keywords.delete_many({})
 if __name__ == "__main__":
 	main()
